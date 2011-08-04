@@ -1,0 +1,5 @@
+	# cat=basic/enable/10; type = boolean; label = Advanced Stock handling: Checking this option changes the Quick Shop Products field `In Stock` (backend only) from Checkbox (boolean) to Input (integer). Uncheck it if you want to sell only unique items.
+stock_advanced = 1
+
+    # cat=basic/enable/20; type = options[Don't log anything = off, Log errors/ warnings only = 2, Log notices/ infos too = 0, Log debug information too (log all) = -1]; label = DRS - Development Reporting System: Debug information written to DevLog. Select the severity of Logging (you need the extension devlog).
+devlog = off

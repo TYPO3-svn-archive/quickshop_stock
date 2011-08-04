@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Description of db table fields</description>
+		<type>database</type>
+		<csh_table>tx_pcvlicencekey_config</csh_table>
+		<labelContext type="array"></labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="exclude_from_stock.description">Disables automatic stock updating after orders.</label>
+			<label index="exclude_from_stock.details">With each order the number of ordered products will be deducted from the number of available products after ordering.
+If the value `In Stock` reaches 0, the product won't be orderable any longer.
+To turn off automatic deducting check this option – the product will be always available and the number of available products is leaved untouched.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="exclude_from_stock.description">Schaltet die automatische Aktualisierung des Warenbestandes ab.</label>
+			<label index="exclude_from_stock.details">Mit jeder Bestellung wird die Anzahl der bestellten Produkte von der Anzahl der verfügbaren Produkte abgezogen.
+Wenn der Wert `Auf Lager` auf 0 absinkt, ist dieses Produkt nicht mehr bestellbar.
+Wird diese Option gewählt, deaktiviert dies die automatische Neuberechnung des Warenbestandes – das Produkt bleibt immer bestellbar, und die Anzahl der verfügbaren Produkte wird nicht verändert.</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,8 @@
+quickshop_stock {
+		#cat = plugin.quickshop_stock/enable/20; type = boolean; label = Enable Stock Control: Disable it for different settings in different domain page trees e. g.
+	enable               = 1
+		#cat = plugin.quickshop_stock/enable/20; type = text; label = Clear Cache: Pages (comma separated list)
+	clearCache_pages     = 0
+		#cat = plugin.quickshop_stock/enable/30; type = options[0 levels (only selected page) = 0, 1 level = 1, 2 levels = 2, 3 levels = 3, 4 levels = 4, Infinite = 250]; label = LLL:EXT:lang/locallang_general.xml:LGL.recursive
+	clearCache_recursive = 0
+}

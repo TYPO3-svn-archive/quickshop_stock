@@ -1,0 +1,8 @@
+plugin.tx_browser_pi1.views {
+	list.1 {
+		andWhere = tx_quickshop_products.in_stock > 0
+	}
+	single.1 {
+		andWhere = tx_quickshop_products.in_stock > 0
+	}
+}

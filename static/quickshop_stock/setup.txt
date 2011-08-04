@@ -1,0 +1,5 @@
+plugin.tx_quickshopstock {
+	enable               = {$quickshop_stock.enable}
+	clearCache_pages     = {$quickshop_stock.clearCache_pages}
+	clearCache_recursive = {$quickshop_stock.clearCache_recursive}
+}
